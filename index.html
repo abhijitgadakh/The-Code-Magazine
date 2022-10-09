@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>The Basic Language of the Web: HTML</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <div class="header">
+      <h1 class="title">📘 The Code Magazine</h1>
+      <nav class="nav-bar">
+        <a href="blog.html">Blog</a>
+        <a
+          href="https://www.freecodecamp.org/learn/responsive-web-design/#basic-html-and-html5"
+          >Challenges</a
+        >
+        <a href="https://www.w3schools.com/css/css3_flexbox.asp">Flexbox</a>
+        <a href="https://www.w3schools.com/css/css_grid.asp">CSS Grid</a>
+      </nav>
+    </div>
+    <div class="mid-article">
+      <!-- ARTICLE -->
+      <article>
+        <h2>The Basic Language of the Web: HTML</h2>
+        <div class="author-intro">
+          <img
+            class="author-img"
+            src="images/abhijit.png"
+            alt="profile picture of author"
+            height="100px"
+            width="100px"
+          />
+
+          <p class="about-author">
+            Posted by <strong>Abhijit Gadakh</strong> on Monday, Sept 28st 2022.
+          </p>
+        </div>
+        <div class="main-article">
+          <img
+            class="main-post-img"
+            src="images/post-img.jpg"
+            alt="codes on screen"
+          />
+          <p>
+            All modern websites and web applications are built using three
+            <em>fundamental</em> technologies: HTML, CSS and JavaScript. These
+            are the languages of the web.
+          </p>
+          <p>
+            In this post, let's focus on HTML. We will learn what HTML is all
+            about, and why you too should learn it.
+          </p>
+
+          <h3>What is HTML?</h3>
+          <p>
+            HTML stands for <strong>H</strong>yper<strong>T</strong>ext
+            <strong>M</strong>arkup <strong>L</strong>anguage. It's a markup
+            language that web developers use to structure and describe the
+            content of a webpage (not a programming language).
+          </p>
+          <p>
+            HTML consists of elements that describe different types of content:
+            paragraphs, links, headings, images, video, etc. Web browsers
+            understand HTML and render HTML code as websites.
+          </p>
+
+          <p>In HTML, each element is made up of 3 parts:</p>
+          <ol>
+            <li>The opening tag</li>
+            <li>The closing tag</li>
+            <li>The actual element</li>
+          </ol>
+          <p>
+            You can learn more at the
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+              target="_blank"
+              >MDN Web Docs.</a
+            >
+          </p>
+
+          <h3>Why should you learn HTML?</h3>
+          <p>
+            There are countless reasons for learning the fundamental language of
+            the web. Here are 5 of them:
+          </p>
+          <ul>
+            <li>To build web applications</li>
+            <li>To impress friends</li>
+            <li>To have fun 😃</li>
+          </ul>
+          <p>Hopefully you learned something new here. See you next time!</p>
+        </div>
+      </article>
+
+      <!-- RELATED-POST -->
+      <aside>
+        <h4>Related posts</h4>
+        <ul class="related-links">
+          <li class="related-link">
+            <img
+              src="images/related-1.jpg"
+              alt="guy coding"
+              class="related-img"
+            />
+            <div class="details">
+              <a href="https://www.w3schools.com/whatis/">Web Development</a>
+              <p class="author-related">W3Schools</p>
+            </div>
+          </li>
+
+          <li class="related-link">
+            <img
+              src="images/related-2.jpg"
+              alt="Lightning-in-dark"
+              class="related-img"
+            />
+            <div class="details">
+              <a
+                href="https://medium.com/@anshap1719/css-is-more-powerful-than-you-think-it-is-25ff2f6df468"
+                >CSS Is More Powerful Than You Think It Is!</a
+              >
+              <p class="author-related">By Anshul Sanghi</p>
+            </div>
+          </li>
+
+          <li class="related-link">
+            <img
+              src="images/related-3.jpg"
+              alt="coding on screen"
+              class="related-img"
+            />
+            <div class="details">
+              <a href="https://snipcart.com/blog/why-javascript-benefits"
+                >Why JavaScript is Important?</a
+              >
+              <p class="author-related">Snipcart</p>
+            </div>
+          </li>
+        </ul>
+      </aside>
+
+      <form
+        class="like-btn"
+        action="https://www.linkedin.com/in/gadakhabhijit/"
+        method="get"
+      >
+        <button type="submit">Follow Me on LinkedIn</button>
+      </form>
+
+      <!-- <button type="like-btn" formaction=""></button> -->
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+      <p>Copyright &copy; 2022 Abhijit Gadakh</p>
+    </footer>
+  </body>
+</html>
